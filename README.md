@@ -61,7 +61,7 @@ pip install -r requirements.txt
 docker run --name logistics -p 9042:9042 -d cassandra
 
 # If the container already exists, just start it
-docker start logistics-node01
+docker start logistics
 
 # Run the app
 python3 app.py
